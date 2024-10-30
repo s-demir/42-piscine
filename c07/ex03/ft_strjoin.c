@@ -36,14 +36,12 @@ char
 	}
 	return (dup[j] = '\0', dup);
 }
-#include <stdio.h>
-int main()
-{
-	char *a[] = {"sdfg", "fghjkl", "fghjk"};
-	char *b = ", ";
-	char *size = ft_strjoin(3, a, b);
-	int i = 0;
-
-	printf("%s", size);
-
-}
+//#include <stdio.h>
+//int main()
+//{
+//	char *a[] = {"sdfg", "fghjkl", "fghjk"};
+//	char *b = ", ";
+//	char *size = ft_strjoin(3, a, b);
+//	int i = 0;
+//	printf("%s", size);
+//}
